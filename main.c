@@ -39,9 +39,8 @@ static struct fuse_opt opts[] = {
 };
 
 const char *usage = "\
-usage: tc65fs [fuse options] device mountpoint\n\
-   -V --version       show software version inforamtion\n\
-   --port=/dev/ttyS0  connect to specified port\n\
+usage: ehs5fs [fuse options] device mountpoint\n\
+   --version          show software version inforamtion\n\
    --readonly         disable any writting operations\n\
    --debug            start in debug mode\n\
 ";
